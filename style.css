@@ -23,7 +23,7 @@ html, body{
   margin-top: 1.5vw;
   width: 100%;
   height: 12%;
-  background-color: white;
+  background-color: rgb(28, 255, 24);
   /* border: 1px solid black; */
   border-top: 3px solid black;
   border-bottom: 3px solid black;
@@ -506,7 +506,7 @@ height: 100%;
   /* text-align: center; */
   margin-top: 2vw;
   font-weight: 500;
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   padding-left: 4vw;
   cursor: pointer;
 }
@@ -517,6 +517,10 @@ height: 100%;
  font-size: 1.8vw;
  padding-left: 2vw;
  cursor: not-allowed;
+}
+#made span{
+  color: rgb(236, 3, 3);
+  
 }
 
 #elem2{
@@ -548,3 +552,348 @@ height: 100%;
   cursor: not-allowed;
 }
 
+@media (max-width:600px) {
+  .nav{
+    height: 9%;
+    background-color: rgb(28, 255, 24);
+  }
+  .nav h2{
+    /* background-color: rgb(4, 0, 255);
+    height: 100%;
+    width: 15% ;
+    font-size: 18px;
+    font-weight: 600; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* border-right: 3px solid black; */
+    /* border-left: 3px solid black; */
+    /* cursor: pointer; */
+    display: none;
+    
+  }
+  /* .nav h2:nth-child(4){
+    width: 8%;
+    border: none;
+    border-left: none;
+    
+  } */
+  /* .nav h2:nth-child(2){
+    border: none;
+    width: 5%;
+    margin-left: 2vw;
+    
+  } */
+  .nav h1{
+    /* font-family: 'monument'; */
+    padding-left: 5vw;
+    font-size: 6vw;
+    letter-spacing: -1px;
+    position: relative;
+  }
+  .nav h1::after{
+    /* content: "©"; */
+    font-size: 2.3vw;
+    /* position: absolute; */
+    top: -1vw;
+    opacity: 0.7;
+    font-family: 'poppins'; 
+  }
+  .nav h1::before{
+    /* content: "model management"; */
+    /* position: absolute; */
+    font-size: 2vw;
+    /* font-family: 'poppins'; */
+    top: 5.5vw;
+    /* left: 11vw; */
+    /* letter-spacing: 0.5px; */
+    font-weight:500;
+    /* opacity: 0.7; */
+  }
+  /* .nav h2:nth-child(5){
+    padding-right: 4vw;
+    font-size: 2vw;
+    border-right: none;
+    
+  } */
+  #centre{
+    width: 100%;
+    height: 40% ;
+    background-color: blueviolet;
+    padding: 3vw 5vw;
+    position: relative;
+  }
+  .content{
+    width: 100%;
+    height: 100% ;
+    position: relative;
+    /* background-color: aqua; */
+    /* position: relative; */
+  }
+  .content video{
+    /* position: absolute; */
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .overlay{
+    width: 100%;
+    height: 40%;
+    background-color:brown;
+    position: absolute;
+    bottom: 0;
+    
+    
+  }
+  .overlay p{
+    font-family: 'monument';
+    font-weight: 600;
+    font-size: 3vw;
+    color: white;
+    letter-spacing: 3px;
+    display: inline-block;
+    margin-left: 4vw;
+    
+    
+  }
+  .overlay p:nth-child(2) {
+    margin-left: 40vw;
+    /* position: absolute; */
+    /* font-family: 'poppins'; */
+    font-size: 1.5vw;
+    /* letter-spacing: 0; */
+    /* background-color: transparent; */
+    /* border: 1px solid white; */
+    /* padding: 1.5vw; */
+    /* padding-right: 2vw; */
+    /* border-radius: 50%; */
+    bottom: 10vh;
+  }
+  .content hr{
+    /* margin-top: 1vw; */
+    border: 1px solid white;
+    width: 90%;
+    
+    margin-left: 4vw;
+    position: absolute;
+    bottom: 8vw;
+    
+  }
+  #explore{
+    /* position: absolute; */
+    /* bottom: 3vw; */
+    /* margin-left: 4vw; */
+    /* color: white; */
+    font-size: 2.5vw;
+    /* cursor: pointer; */
+  }
+  #scroll-container{
+    /* width: 100%; */
+    height: 18vh;
+    background-color: burlywood;
+    
+    /* white-space: nowrap; */
+    /* overflow-x: hidden; */
+    
+   
+  } 
+  .scroll{
+    width: 120%;
+    height: 100%;
+    background-color: aqua;
+  }
+
+  .scroll img{
+    width: 13vw;
+    height: 13vw;
+    margin-top: 6vh;
+  } 
+  
+  #alphabate{
+    height: 6vh;
+
+  }
+  #alphabate h1{
+    font-weight: 500;
+    font-size: 3vw;
+  }
+  #alphabate p{
+    font-weight: 500;
+    font-size: 2.5vw;
+  
+  }
+  #page2{
+    /* width: 100%; */
+    height: 50%;
+    background-color: blue;
+    /* padding: 3vw 5vw; */
+  }
+  .photo-container{
+    /* width: 100%;
+    height: 100%; */
+    background-color: greenyellow;
+    /* display: flex;
+    justify-content: space-between; */
+  }
+  .photo1{
+  width: 50% ;
+  /* height: 100%; */
+  /* background-color: red; */
+  
+  }
+  /* .photo1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  } */
+  .photo2{
+    width: 47% ;
+    /* height: 100%; */
+    /* background-color: blueviolet;  */
+  }
+  .photo2 img{
+    /* width: 100%; */
+    height: 80%;
+    /* object-fit: cover; */
+  }
+  .photo2-content{
+    width: 100%;
+    background-color: red;
+    height: 18.4%;
+    /* display: flex;
+    justify-content: space-between;*/
+  } 
+  .photo2-content p:first-child{
+    /* font-weight: 600; */
+    font-size: 1.7vw;
+  }
+  .photo2-content p:last-child{
+    /* font-weight: 500; */
+    font-size: 1.2vw;
+    
+    background-color: gold;
+    padding-right: 0.3vw;
+  }
+  #page3{
+    /* width: 100%;*/
+    height: 100%; 
+    background-color: purple;
+    
+  }
+  .page3-top{
+    background-color: aqua;
+    /* width: 100%; */
+    height: 10%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+  .page3-top p{
+    font-size: 4vw;
+    /* font-weight: 600;
+    font-family: 'monument'; */
+    
+  }
+  .page3-bottom{
+    /* width: 100%;
+    height: 80%; 
+    background-color: lightskyblue;
+  }
+  .page3-bottom-content{
+    /* width: 100%; */
+    height: 45%;
+    background-color: red;
+    /* padding: 3vw 5vw; */
+  }
+  .bottom-grid{
+    background-color: yellow;
+    /* width: 100%;*/
+    height: 15%; 
+    
+    /* display: flex;
+    gap: 3.5vw; */
+    /* white-space: nowrap; */
+    
+  }
+  /* .bottom-grid:hover{
+    
+    cursor: pointer;
+  } */
+  .bottom-grid div{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(4, 255, 0);
+    /* border: 1px solid black; */
+  }
+  .bottom-grid div:first-child p{
+    /* font-weight: 500; */
+    font-size: 1.5vw;
+    /* padding-left: 2vw; */
+    /* padding-bottom: 1.6vw; */
+  
+  }
+  .bottom-grid div img{
+    width: 12vw;
+    height: 12vw;
+    /* border-radius: 50%;
+    object-fit: cover; */
+  } 
+  .bottom-grid div:last-child p {
+    font-size: 3vw;
+    /* padding-top: 2vw; */
+    /* background-color: blue; */
+    /* position: relative; */
+    /* margin-bottom: 1vw; */
+  } 
+  
+  /* .bottom-grid div:nth-child(1){
+    width: 13vw;
+    /* width: 22vh; */
+    /* font-size: 1.5vw; */
+    /* margin-left: 3vw; */
+  /* }
+  .bottom-grid div:nth-child(2){
+    width: 15vw;
+    font-size: 2.5vw;
+  }
+  .bottom-grid div:nth-child(3){
+    width: 45vw;
+    margin-left: 3vw;
+  }  */
+  .bottom-grid div:nth-child(3) span{
+    
+    /* background-color: yellow; */
+    /* display: inline-block; */
+    font-size: 1.2vw;
+    /* position: absolute;
+    font-weight: 500;  */
+  }
+   /* .page3-bottom-content hr{
+    border: 1.5px solid black;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+  } */
+  #grid-3rd-div{
+    font-size: 3vw;
+    /* background-color: red; */
+    position: relative;
+  }
+  #grid-3rd-div span{
+    font-size: 1.2vw;
+    /* background-color: yellow; */
+    /* position: absolute;
+    font-weight: 500; */
+  }
+
+
+
+
+
+
+  
+}
